@@ -34,7 +34,7 @@ void main(){
      int n=9;
      #pragma omp parallel sections
      {
-          printf("prim table\n");
+          printf("prime table\n");
           #pragma omp section
           {
                 prime_table(n);
